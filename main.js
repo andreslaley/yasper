@@ -9,13 +9,6 @@ var io = require('socket.io')({
 io.attach(process.env.PORT || 5000);
 
 
-//       io = require('socket.io')(server, {
-//            
-//        });
-//I also tried
-//
-//io.origins('https://192.168.50.150:3333');
-
 
 // Chatroom
 
