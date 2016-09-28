@@ -1,0 +1,13 @@
+{
+    "name": "minorgaChat",
+    "description": "Minorga chat",
+    "version": "1.0.0",
+    "author": "andreslaley",
+    "contributors": [],
+    "main": "index.js",
+    "dependencies": {
+        "socket.io" : "1.2.0",
+        "express": "4.13.4",
+        "mysql": "^2.5.4"
+        }
+}
