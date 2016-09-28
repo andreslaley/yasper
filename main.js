@@ -5,7 +5,7 @@ var express = require('express');
 
 var io = require('socket.io')({
     transports: ['websocket'],
-    'origins': '*:*',
+    'origins': 'http://minorga.skrin.de',
             'serveClient': false
 });
 io.attach(process.env.PORT || 5000);
