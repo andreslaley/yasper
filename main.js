@@ -4,13 +4,11 @@ var express = require('express');
 //var io = require('socket.io')(server);
 
 var io = require('socket.io')({
-    transports: ['websocket'],
+    transports: ['websocket']
 });
 
-io.configure(function () { 
     io.set("transports", ["xhr-polling"]); 
     io.set("polling duration", 10); 
-});
 
 io.attach(process.env.PORT || 5000);
 
