@@ -26,7 +26,7 @@ io.on('connection', function (socket) {
             username: socket.username,
             message: data
         });
-        insert(socket.username);
+        //insert(socket.username);
     });
 
     // when the client emits 'add user', this listens and executes
