@@ -8,7 +8,6 @@ var io = require('socket.io')({
     transports: ['websocket']
 });
 
-
 io.attach(process.env.PORT || 5000);
 
 //io.set('origins', 'http://minorga.skrin.de:80');
